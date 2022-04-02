@@ -8,8 +8,8 @@
 }
 
 body {
-  background-color: var(--title-color);
   color: var (--main-color);
+  background-color: var(--title-color);
 
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
@@ -44,6 +44,10 @@ h4,
 h5,
 p {
   margin: 0;
+}
+
+.hidden-title {
+  display: none;
 }
 
 /* HEADER */
@@ -140,10 +144,6 @@ p {
 
 /* SKILLS */
 
-.hidden-title {
-  display: none;
-}
-
 .skills-title {
   font-weight: 700;
   font-size: 14px;
@@ -154,7 +154,6 @@ p {
 }
 
 .skills-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 
@@ -194,7 +193,6 @@ p {
 }
 
 .team-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
 
@@ -215,7 +213,7 @@ p {
 }
 
 .contact-list {
-  font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -229,4 +227,44 @@ p {
 .contact-link:hover,
 .contact-link:focus {
   color: var(--accent-color);
+}
+
+/* PORTFOLIO */
+
+.filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  cursor: pointer;
+
+  color: var(--main-color);
+
+  background: var(--filter-color);
+  border-radius: 4px;
+  border: var(--filter-color);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--title-color);
+  background-color: var(--accent-color);
+}
+
+.pr-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: var(--main-color);
+}
+
+.pr-text {
+  font-size: 16px;
+  line-height: 1.88;
+
+  color: var(--text-color);
 }
