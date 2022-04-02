@@ -247,7 +247,7 @@ p {
 
   background: var(--filter-color);
   border-radius: 4px;
-  border: var(--filter-color);
+  border: transparent;
 }
 
 .filter-btn:hover,
