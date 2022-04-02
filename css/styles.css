@@ -46,11 +46,11 @@ p {
   margin: 0;
 }
 
-/* Header */
+/* HEADER */
 
 .logo {
   color: #000000;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -61,7 +61,7 @@ p {
   color: var(--accent-color);
 }
 
-/* Navigation */
+/* NAVIGATION */
 
 .nav-link {
   font-size: 14px;
@@ -90,5 +90,143 @@ p {
 
 .nav-contact:hover,
 .nav-contact:focus {
+  color: var(--accent-color);
+}
+
+/* HERO */
+
+.hero {
+  background-color: var(--background-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  width: 696px;
+  height: 120px;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--title-color);
+}
+
+.main-btn {
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: var(--accent-color);
+  cursor: pointer;
+
+  color: var(--title-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  letter-spacing: 0.06em;
+}
+
+.main-btn:hover,
+.main-btn:focus {
+  color: var(--accent-color);
+  background-color: var(--title-color);
+}
+
+/* SKILLS */
+
+.hidden-title {
+  display: none;
+}
+
+.skills-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--main-color);
+}
+
+.skills-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: var(--text-color);
+}
+
+/* EXAMPLES */
+
+.works-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+
+  color: var(--main-color);
+}
+
+/* TEAM */
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+
+  color: var(--main-color);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+
+  color: var(--main-color);
+}
+
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+
+  color: var(--text-color);
+}
+
+/* FOOTER */
+
+.footer {
+  color: var(--title-color);
+  background-color: var(--background-color);
+}
+
+.logo-footer {
+  color: var(--title-color);
+}
+
+.contact-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.contact-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-address:hover,
+.contact-address:focus,
+.contact-link:hover,
+.contact-link:focus {
   color: var(--accent-color);
 }
