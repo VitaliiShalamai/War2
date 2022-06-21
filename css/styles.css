@@ -243,7 +243,7 @@ p {
   background-color: var(--accent-color);
 }
 
-.pr-title {
+.project-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -253,7 +253,7 @@ p {
   color: var(--main-color);
 }
 
-.pr-text {
+.project-text {
   font-size: 16px;
   line-height: 1.88;
 
